@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Copyright &copy; {year} <Link href="google.com">  Samiha Zaman</Link>. All rights reserved.</Slogan>
+          <Slogan>Copyright &copy; {year} <Link href="https://samiha-portfolio-website.vercel.app/">  Samiha Zaman</Link>. All rights reserved.</Slogan>
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/samihazaman">

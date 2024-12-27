@@ -110,10 +110,17 @@ transition: 0.5s;
 
 export const TagList = styled.ul`
 display: flex;
+flex-wrap: wrap; /* Enables wrapping */
+gap: 10px; /* Adds spacing between tags */
 justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
 font-size: 1.5rem;
+padding: 3px;
+
+
 `
+
+

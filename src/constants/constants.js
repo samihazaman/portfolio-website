@@ -1,13 +1,25 @@
 export const projects = [
   {
+    title: 'Diet First',
+    description: "DietFirst is a full stack web application designed to help users manage their diet and make healthier eating choices. The app allows users to create personalized meal plans, track their progress, and discover healthy recipes based on dietary preferences, medical conditions and allergies.",
+    image: '/images/DietFirst.png',
+    tags: ['React', 'Tailwind CSS', 'Node.js', 'Express.js', 'Redux', 'MongoDB', 'Edamam API'],
+    source: 'https://github.com/DietFirst/DietFirst',
+    visit: 'https://dietfirst-frontend.vercel.app/',
+    id: 0,
+  },
+
+  {
     title: 'QC Computer Science AI Advisor',
     description: "A web app created during a hacakthon that	navigates through prerequisites, electives, semesters left, etc. to provide Queens College computer science students a clear and optimized path to graduation, saving the time they put into planning schedules and also offers tailored academic advice.",
     image: '/images/qc cs ai advisor.png',
     tags: ['HTML', 'Tailwind CSS', 'JavaScript', 'Flask', 'OpenAI API'],
     source: 'https://github.com/samihazaman/qccs-ai-advisor',
     visit: 'https://devpost.com/software/queens-college-computer-science-ai-advisor',
-    id: 0,
+    id: 1,
   },
+
+
   {
     title: 'CUNY Connect Essentials',
     description: "A web application that informs CUNY students about essential resources, such as food, housing, mental health services, available at their campus. It includes an interactive survey that customizes resources for students based on their college, enhancing accessibility to vital support services",
@@ -15,7 +27,7 @@ export const projects = [
     tags: ['React', 'Node.js', 'HTML', 'Tailwind CSS'],
     source: 'https://github.com/samihazaman/cuny-students-matter',
     visit: 'https://cuny-students-matter.vercel.app/',
-    id: 1,
+    id: 2,
   },
   {
     title: 'Weather App',
@@ -24,7 +36,7 @@ export const projects = [
     tags: ['React', 'OpenWeather API', 'JavaScript', 'CSS'],
     source: 'https://github.com/samihazaman/weather-app',
     visit: 'https://weather-app-sandy-three-27.vercel.app/',
-    id: 2,
+    id: 3,
   },
   {
     title: 'Character Quiz',
@@ -33,7 +45,7 @@ export const projects = [
     tags: ['HTML', 'CSS', 'JavaScript', 'jQuery'],
     source: 'https://github.com/samihazaman/Character-Quiz',
     visit: 'https://samihazaman.github.io/Character-Quiz/',
-    id: 3,
+    id: 4,
   },
   
 

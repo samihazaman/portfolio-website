@@ -13,7 +13,7 @@ grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 padding-top: 3rem;
 padding-bottom: 3rem;
 place-items: center;
-column-gap: 1rem;
+column-gap: 10rem;
 row-gap: 3rem;
 @media ${(props) => props.theme.breakpoints.sm} {
   display: flex;
@@ -27,7 +27,7 @@ export const BlogCard = styled.div`
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
-  width: 400px;
+  width: 600px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
